@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+}
+
+.mynave {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.mynave .navigation {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mynave .navigation .dazy {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.mynave .navigation ul {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.mynave .navigation ul a {
+  transition: 0.2s;
+}
+.nav-active {
+  position: relative;
+}
+.nav-active::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  background-color: #fa6400;
+  border-radius: 5px;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-animation: anim 0.3s ease forwards;
+  animation: anim 0.6s ease forwards;
+}
+@-webkit-keyframes anim {
+  to {
+    width: 100%;
+  }
+}
+@keyframes anim {
+  to {
+    width: 100%;
+  }
+}
+
+.homepages {
+  height: 94vh;
+  position: relative;
+  background-color: #52524f;
+  background-image: url(../../assets/img/maki.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-blend-mode: multiply;
+}
+.homepages .content-left h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.homepages .content-left p {
+  font-size: 1.5rem;
+}
+.homepages .content-right {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.homepages .content-right img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid #fa6400;
+}
+
+.social {
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translate(-20%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #fa6400;
+}
+.social a {
+  font-size: 2rem;
+  color: #fa6400;
+  transition: 0.2s;
+}
+.social a:hover {
+  color: #fff;
+  transform: scale(1.5);
+}
+
+.mybutton {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 200px;
+}
+.mybutton:hover {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.mybutton:hover {
+  transform: translateY(-1px);
+}
+.mybutton:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.mybutton:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Roboto&display=swap');
+
+$font-1: 'Lato', sans-serif;
+
+
+
+$color-1:#fa6400;
+$color-2: #fb8332;
+$color-3: #282c34;
+$white: #fff;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: $white;
+  font-family: $font-1;
+  // @include verticalCenter;
+}
+li {
+  list-style-type: none;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  .mybouton{
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: space-between;
+    .mybouton{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

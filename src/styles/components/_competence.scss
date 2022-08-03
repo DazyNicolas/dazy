@@ -1,0 +1,384 @@
+.Mycompetence{
+    .title-competence{
+        text-align: center;
+        padding: 4rem;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100px;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -75%);
+            background-color: $color-1;
+            
+        }
+        h1{
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+          }
+    
+          p{
+           color: #6e6d6d;
+          }
+    }
+     
+    .content-competence{
+        display: flex;
+        justify-content: space-between;
+
+        .left-conpetence{
+            width: 50%;
+            padding: 20px;
+            ul{
+                li{
+                    margin: 1rem auto;
+                    .barlaravel{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 50%;
+                            height: 100%;
+                            padding-left: 50px;
+                            position: absolute;
+                            background-color: $color-2;
+                        }
+
+                    }
+                    .barsymfony{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 45%;
+                            height: 100%;
+                            padding-left: 0px;
+                            position: absolute;
+                            background-color: $color-2;
+                        }
+
+                    }
+                    .barstrap{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 50%;
+                            height: 100%;
+                            padding-left: 50px;
+                            position: absolute;
+                            background-color: $color-2;
+                        }
+
+                    }
+                    .barract{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 40%;
+                            height: 100%;
+                            padding-left: 50px;
+                            position: absolute;
+                            background-color: $color-2;
+                        }
+
+                    }
+                    .barauto{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 80%;
+                            height: 100%;
+                            padding-left: 50px;
+                            position: absolute;
+                            background-color: $color-2;
+                        }
+
+                    }
+                    .bargithub{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 45%;
+                            height: 100%;
+                            padding-left: 50px;
+                            position: absolute;
+                            background-color: $color-2;
+                        }
+
+                    }
+                    .barmysql{
+                        width: 100%;
+                        height: 20px;
+                        background-color: #000;
+                        position: relative;
+                        &::before{
+                            content: attr(data-content);
+                            width: 30%;
+                            height: 100%;
+                            padding-left: 50px;
+                            position: absolute;
+                            background-color: $color-2;
+                            
+                        }
+
+                    }
+                }
+
+             }
+             .bottom-text{
+                margin-top:1rem;
+                p{
+                    margin-bottom: 1rem;
+                }
+
+                .cvbouton{
+                    width: 0px !important;
+                    background-color: red !important;
+                    
+                }
+            }
+            }
+
+        .right-competence {
+            width: 50%;
+            padding: 20px;
+                ul{
+                    li{
+                        margin: 1rem auto;
+                        .barhtml{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 80%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                        .barcss{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 80%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                        .barjs{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 50%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                        .barjq{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 40%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                        .barphp{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 40%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                        .barfigma{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 40%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                        .barxd{
+                            width: 100%;
+                            height: 20px;
+                            background-color: #000;
+                            position: relative;
+                            &::before{
+                                content: attr(data-content);
+                                width: 50%;
+                                height: 100%;
+                                padding-left: 50px;
+                                position: absolute;
+                                background-color: $color-2;
+                            }
+
+                        }
+                    }
+                }
+
+                .bottom-text{
+                    margin-top:1rem;
+                    p{
+                        margin-bottom: 1rem;
+                    }
+
+                    strong{
+                        letter-spacing: 1.5px;
+                    }
+                }
+        }
+    }
+}
+
+@media screen and (max-width:1280px){
+        .Mycompetence{
+            .content-competence{
+                display: flex;
+                justify-content: space-between;
+        
+                .left-conpetence{
+                    width: 50%;
+                    padding: 20px;
+                    h2{
+                        font-size: 1rem ;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .right-competence{
+                    width: 50%;
+                    padding: 20px;
+                    h2{
+                        font-size: 1rem;
+                        text-transform: uppercase;
+                    }
+                }
+                }
+
+                
+        }
+}
+
+@media screen and (max-width:920px){
+    .Mycompetence{
+       
+        .content-competence{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .left-conpetence{
+                width: 100%;
+                padding: 5px;
+                h2{
+                    font-size: 1rem ;
+                    text-transform: uppercase;
+                }
+            }
+
+            .right-competence{
+                width: 100%;
+                padding: 5px;
+                h2{
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                }
+            }
+            }
+
+            
+    }
+}
+
+@media screen and (max-width:500px){
+    .Mycompetence{
+        .title-competence{
+            h1{
+                font-size:1.5em ;
+               }
+        }
+     
+        .content-competence{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .left-conpetence{
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 2rem;
+                h2{
+                    font-size: 1rem ;
+                    text-transform: uppercase;
+                }
+            }
+
+            .right-competence{
+                width: 100%;
+                padding: 5px;
+                
+                h2{
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                }
+            }
+            }
+
+            
+    }
+}
