@@ -25,19 +25,19 @@ handleClick = () =>{
                 </div>
                 
                 <ul className={this.state.clicked ? 'active' : 'nav-menu'}>
-                    <NavLink to="/" className={(nav)=>(nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/dazy" className={(nav)=>(nav.isActive ? "nav-active" : "")}>
                         <li>Accueil</li>
                     </NavLink>
 
-                    <NavLink to="/apropos"  className={(nav)=>(nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/dazy/apropos"  className={(nav)=>(nav.isActive ? "nav-active" : "")}>
                         <li>A-propos</li>
                     </NavLink>
 
-                    <NavLink to="/competance"  className={(nav)=>(nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/dazy/competance"  className={(nav)=>(nav.isActive ? "nav-active" : "")}>
                         <li>Competance</li>
                     </NavLink>
 
-                    <NavLink to="/contact"  className={(nav)=>(nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/dazy/contact"  className={(nav)=>(nav.isActive ? "nav-active" : "")}>
                         <li>Contact</li>
                     </NavLink>
                 </ul>
