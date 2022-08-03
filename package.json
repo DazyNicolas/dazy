@@ -1,5 +1,5 @@
 { "homepage": "https://DazyNicolas.github.io/dazy",
-  "name": "sitedazy",
+  "name": "dazy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
