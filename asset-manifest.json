@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dazy/static/css/main.11c5de39.css",
-    "main.js": "/dazy/static/js/main.2cc6e0c9.js",
+    "main.js": "/dazy/static/js/main.6c953bc1.js",
     "static/js/787.ccdec662.chunk.js": "/dazy/static/js/787.ccdec662.chunk.js",
     "static/media/maki.jpg": "/dazy/static/media/maki.989c0ebae2182f94c4af.jpg",
     "index.html": "/dazy/index.html",
     "main.11c5de39.css.map": "/dazy/static/css/main.11c5de39.css.map",
-    "main.2cc6e0c9.js.map": "/dazy/static/js/main.2cc6e0c9.js.map",
+    "main.6c953bc1.js.map": "/dazy/static/js/main.6c953bc1.js.map",
     "787.ccdec662.chunk.js.map": "/dazy/static/js/787.ccdec662.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11c5de39.css",
-    "static/js/main.2cc6e0c9.js"
+    "static/js/main.6c953bc1.js"
   ]
 }
