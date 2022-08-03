@@ -16,9 +16,9 @@ handleClick = () =>{
         return (
             <nav className='mynave'>
             <div className='navigation'>
-                <NavLink to='/' >
-                   <h1 className='dazy'>Dazy Exelle</h1>  
-                </NavLink>
+                <div className='dazy'>
+                    Dazy Exelle 
+                </div>
 
                 <div className='hamburger' onClick={this.handleClick}>
                 <FontAwesomeIcon className='menu-bars' icon={this.state.clicked ? faTimes : faBars}/>
