@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Apropos from "./pages/Apropos";
 import Competance from "./pages/Competance";
 import Contact from "./pages/Contact";
@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
        <Route path="/" element={<Home />} />
 
@@ -22,7 +22,7 @@ const App = () => {
         {/*path="*" functionne si jamais l'url ne correspond à rien de déclaré au dessus*/}
         <Route path="*" element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
