@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Mylocalisation from '../components/Mylocalisation';
 import Navigation from '../components/Navigation';
+import InputFild from '../components/InputFild';
 
 
 const Contact = () => {
@@ -43,41 +44,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className='rigth-contact'>
-                        <h2>Envoyer un message</h2>
-                        
-                        <div className='formulaire'>
-                            <form>
-                                <div className='group-input'>
-                                    <label>Nom : </label>
-                                    
-                                    <input type="text" name="name" />
-                                   
-                                </div>
-                                <div className='group-input'>
-                                    <label> Email : </label>
-                                   
-                                    <input type="text" name="name" />
-                                   
-                                </div>
-                                <div className='group-input'>
-                                    <label>Objet :</label>
-                                    
-                                    <input type="text" name="name" />
-                                    
-                                </div>
-                                <div className='group-input'>
-                                    <label>Message :</label>
-                                    
-                                    <textarea type="text" name="name" />
-                                    
-                                </div>
-                           
-                            
-                            <input className='btn-send' type="submit" value="Envoyer" />
-                            </form>
-                        </div>
-                    </div>
+                   <InputFild/>
                 </div>
                 </div>
               
