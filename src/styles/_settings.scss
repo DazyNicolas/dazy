@@ -9,6 +9,16 @@ $color-2: #fb8332;
 $color-3: #282c34;
 $white: #fff;
 
+.alertmessage{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background-color: green;
+  padding: 4px;
+  color: wheat;
+  border-radius: 4px;
+}
+
 @mixin verticalCenter {
   display: flex;
   justify-content: center;

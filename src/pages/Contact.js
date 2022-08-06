@@ -4,7 +4,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Mylocalisation from "../components/Mylocalisation";
 import Navigation from "../components/Navigation";
 import InputFild from "../components/InputFild";
@@ -36,6 +36,14 @@ const Contact = () => {
     });
   }
 
+  useEffect(()=>{
+    if(status === 'SUCCESS'){
+      setTimeout(()=>{
+        setStatus('')
+      }, 3000)
+    }
+  }, [status])
+  
   const handleChange = (e) => {
     setValues((values) => ({
       ...values,
@@ -80,9 +88,8 @@ const Contact = () => {
             </div>
             <div className="rigth-contact">
               <h2>Envoyer un message</h2>
-
+              { status && renderAlert()}
               <div className="formulaire">
-                { status && renderAlert()}
                 <form onSubmit={handleSubmit}>
                   <InputFild
                     handleChange={handleChange}
@@ -104,7 +111,7 @@ const Contact = () => {
                     name="message"
                     placeholder="Ecrire votre message"
                   />
-                  <button type="submit">Envoyer</button>
+                  <button type="submit" className="btn-send">Envoyer</button>
                 </form>
               </div>
             </div>
@@ -116,8 +123,8 @@ const Contact = () => {
 };
 
 const renderAlert = () => (
-  <div>
-    <p>Votre message a étè envoyer avec succé</p>
+  <div className="alertmessage">
+    <p>votre message a été envoyé avec succès</p>
   </div>
 )
 export default Contact;
