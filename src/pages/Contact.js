@@ -8,32 +8,42 @@ import React, { useState } from "react";
 import Mylocalisation from "../components/Mylocalisation";
 import Navigation from "../components/Navigation";
 import InputFild from "../components/InputFild";
-import emailjs from 'emailjs-com'
+import emailjs from "emailjs-com";
 import TextareaFild from "../components/TextareaFild";
 
 const Contact = () => {
+  const [values, setValues] = useState({
+    name:'',
+    user_email: '',
+    message: '',
+  });
 
-const  [values, setValues] = useState({
-    name: '',
-    email: '',
-    message:''
-})
-console.log(values)
+  const [status, setStatus] = useState('');
+  console.log(values);
 
-const handleChange = (e) =>{
-    setValues(values => ({
-        ...values,
-        [e.target.name]: e.target.value
-    }))
-}
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    emailjs.send('service_qtt1uq7', 'template_6g159kq', values, 'pwvqK1DKdsuzG6cEZ').then(response => {
+      console.log('SUCCESS', response);
+      setValues({
+        name: '',
+        user_email:'',
+        message:'',
+      });
+      setStatus('SUCCESS');
+    }, error => {
+      console.log('FAILD..', error)
+    });
+  }
 
-    function sendEmail (e){
-        e.preventDefault();
-    
-        emailjs.sendForm('service_qtt1uq7', 'template_8szb9a1', e.target, 'pwvqK1DKdsuzG6cEZ').then(res=>{
-            console.log(res)
-        }).catch(err=>console.log(err));
-    }
+  const handleChange = (e) => {
+    setValues((values) => ({
+      ...values,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  
   return (
     <div>
       <Navigation />
@@ -72,14 +82,32 @@ const handleChange = (e) =>{
               <h2>Envoyer un message</h2>
 
               <div className="formulaire">
-                <form onSubmit={sendEmail}>
-                <InputFild handleChange = {handleChange} label="Nom" name="name" type="text" placeholder="votre nom"/>
-                <InputFild handleChange = {handleChange}  label="Email" name="emal" type="email" placeholder="votre adress email"/>
-                <TextareaFild handleChange = {handleChange}  label="Votre message" name="message" type="email" placeholder="Ecrire votre message"/>
+                { status && renderAlert()}
+                <form onSubmit={handleSubmit}>
+                  <InputFild
+                    handleChange={handleChange}
+                    label="Nom"
+                    name="name"
+                    type="text"
+                    placeholder="votre nom"
+                  />
+                  <InputFild
+                    handleChange={handleChange}
+                    label="E-mail"
+                    name="user_email"
+                    type="email"
+                    placeholder="votre adress email"
+                  />
+                  <TextareaFild
+                    handleChange={handleChange}
+                    label="Votre message"
+                    name="message"
+                    placeholder="Ecrire votre message"
+                  />
+                  <button type="submit">Envoyer</button>
                 </form>
               </div>
             </div>
-           
           </div>
         </div>
       </div>
@@ -87,4 +115,9 @@ const handleChange = (e) =>{
   );
 };
 
+const renderAlert = () => (
+  <div>
+    <p>Votre message a étè envoyer avec succé</p>
+  </div>
+)
 export default Contact;
