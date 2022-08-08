@@ -73,6 +73,19 @@ li {
     width: 80%;
     margin: 0 auto;
   }
+
+  .container-flex1{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: space-between;
+    .mybouton{
+      width: 0;
+    }
+  }
 }
 
 @media screen and (max-width: 700px){

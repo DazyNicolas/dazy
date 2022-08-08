@@ -7,7 +7,7 @@ const Myboutton = () => {
     <div>
       <div className="mybutton">
       <button className="cotent-button">Commencer</button>
-      <FontAwesomeIcon icon={faRightLong}/>
+      <FontAwesomeIcon className="right-long" icon={faRightLong}/>
       </div>
       
     </div>

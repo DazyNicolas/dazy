@@ -7,7 +7,7 @@
         .content-left{
           max-width: 60%;
           h1{
-            font-size: 4rem;
+            font-size: 3rem;
             letter-spacing: 2px;
             margin-bottom: 2rem;
            
@@ -20,13 +20,14 @@
 
           h2{
             margin-bottom: 1rem;
+            font-size: 2rem;
           }
         }
         .content-right{
             
             img{
-                width: 400px;
-                height: 400px;
+                width: 350px;
+                height: 350px;
                 border-radius: 100%;
                 border:2px solid $color-1 ;
             }
@@ -35,17 +36,139 @@
 }
 
 @media screen and (max-width: 1300px){
+
+  .homepages{
+    background-color: $color-fond;
+        .content-left{
+          max-width: 100%;
+          h1{
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+           
+          }   
+
+          p{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+          }
+
+          h2{
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+          }
+        }
+        .content-right{
+          width: 50%;
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        }
+    
+}
   
 }
 
 @media screen and (max-width: 1100px){
-  
+  .homepages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        .content-left{
+          max-width: 100%;
+          h1{
+            font-size: 2rem;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+           
+          }   
+
+          p{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+          }
+
+          h2{
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+          }
+        }
+        .content-right{
+          width: 100%;
+          margin-bottom: 2rem;
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        }
+    
+}
 }
 
 @media screen and (max-width: 700px){
-  
+  .homepages{
+        .content-left{
+          max-width: 100%;
+          h1{
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+           
+          }   
+
+          p{
+            font-size: 1rem;
+            margin-bottom: 2rem;
+          }
+
+          h2{
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+          }
+        }
+        .content-right{
+          width: 100%;
+          margin-bottom: 2rem;
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    
+}
 }
 
 @media screen and (max-width: 540px){
-  
+  .homepages{
+    .content-left{
+      max-width: 100%;
+      h1{
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        margin-bottom: 2rem;
+       
+      }   
+
+      p{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      h2{
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+    .content-right{
+      width: 100%;
+      margin-bottom: 2rem;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+}
 }
