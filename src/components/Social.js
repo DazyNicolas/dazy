@@ -8,6 +8,11 @@ const Social = () => {
     return (
         
              <div className='social'>
+                <div className='copyright'>
+                    <p>Copyright © 2022 dazyexelle@gmail.com - Tous droits réservés</p>
+                </div>
+
+                <div className='icon-list'>
                 <a href="https://facebook.com">
                 <FontAwesomeIcon icon={faFacebook}/>
                 </a>
@@ -19,6 +24,8 @@ const Social = () => {
                 <a href='https://wathsapp.com'>
                  <FontAwesomeIcon icon={faWhatsapp}/>
                 </a>        
+                </div>
+                
              </div>
         
     );

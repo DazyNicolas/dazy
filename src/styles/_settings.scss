@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-$font-1: 'Lato', sans-serif;
+$font-1: 'Roboto', sans-serif;
 
 
-
+$color-fond:#202124;
+$color-text: #63676C;
+$color-title:#202124;
 $color-1:#fa6400;
 $color-2: #fb8332;
 $color-3: #282c34;
-$white: #fff;
+$white: #ffff;
+
 
 .alertmessage{
   width: 100%;
@@ -33,7 +36,7 @@ $white: #fff;
 }
 
 body {
-  background: $white;
+  //background: #ffff;
   font-family: $font-1;
   // @include verticalCenter;
 }
@@ -56,6 +59,15 @@ li {
   }
 }
 
+.container-flex1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-between;
+  .mybouton{
+    width: 0;
+  }
+}
 @media screen and (max-width: 1100px){
   .container{
     width: 80%;
