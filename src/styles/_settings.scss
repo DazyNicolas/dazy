@@ -36,9 +36,9 @@ $white: #ffff;
 }
 
 body {
-  //background: #ffff;
+  background: $color-fond;
   font-family: $font-1;
-  // @include verticalCenter;
+
 }
 li {
   list-style-type: none;
