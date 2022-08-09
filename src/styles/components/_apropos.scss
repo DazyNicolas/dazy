@@ -6,14 +6,17 @@
     overflow: hidden;
     background-color:$color-fond;
     color: $white;
+    width: 60%;
+    margin: 0 auto;
     .left-about{
-        width: 60%;
+        width: 100%;
+        padding: 20px;
         .about-title{
             justify-content: center;
-            width: 60%;
+            width: 100%;
             margin: auto;
             text-align: center;
-            padding: 2rem;
+            padding: 1rem;
             position: relative;
             &::before{
                 content: "";
@@ -45,7 +48,7 @@
         }
 
         .all-info{
-            width: 60%;
+            width: 100%;
             margin: auto;
             text-align: center;
             display: flex;
@@ -54,6 +57,7 @@
             li{
                 h1{
                     position: relative;
+                    font-size: 1rem;
                     &::before{
                         content: "";
                         position: absolute;
@@ -67,11 +71,15 @@
                 .info-icon{
                     background-color: $white;
                     color: $color-2;
-                    padding: 20px;
+                    padding: 10px;
                     border-radius: 50%;
                     margin-top: 1rem;
                     margin-bottom: 1rem;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
+                }
+
+                p{
+                    font-size: 14px;
                 }
             }
             
@@ -79,30 +87,27 @@
        
     }
     .right-about{
-        width: 40%;
-      
+        width: 700px;
         img{
-            width: 100%;
+            width: 450px;
             height: 100vh;
             object-fit: cover;
         }
     }
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1300px){
 
     .group-about{
        
+        width: 80%;
+        margin: 0 auto;
         .left-about{
-            width: 60%;
+           
             .about-title{
-                
-                width: 90%;
-               
                
                 h1{
-                   
-                  
+                    
                 }
                 p{
                   
@@ -110,14 +115,17 @@
             }
     
             .all-info{
-                width: 90%;
-               
+              
                 li{
                     h1{
-                     font-size: 1.5rem;
+                        
                     }
                     .info-icon{
-                       
+                      
+                    }
+    
+                    p{
+                    
                     }
                 }
                 
@@ -125,16 +133,16 @@
            
         }
         .right-about{
-           
+            
             img{
-               
+                
             }
         }
     }
 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 950px){
 
     .group-about{
         
