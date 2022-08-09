@@ -172,3 +172,36 @@
 
 }
 }
+
+@media screen and (max-width: 414px){
+  .homepages{
+    .content-left{
+      max-width: 100%;
+      h1{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 2rem;
+       
+      }   
+
+      p{
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+      }
+
+      h2{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+    .content-right{
+      width: 100%;
+      margin-bottom: 2rem;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+}
+}
