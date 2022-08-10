@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Mylargeboutton from '../components/Mylargeboutton';
-import {NavLink} from "react-router-dom"
+import MycvFile from '../components/MycvFile';
 
 const Competance = () => {
     return (
@@ -51,9 +50,7 @@ const Competance = () => {
                           Les bons programmeurs écrivent du code que les humains peuvent comprendre.” - Martin Fowler.
                         </p>
 
-                        <NavLink  to="/moncv" className='cvbouton'>
-                            <Mylargeboutton/>
-                        </NavLink>
+                        <MycvFile/>
                      </div>
 
                 </div>
