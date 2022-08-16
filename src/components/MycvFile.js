@@ -11,7 +11,7 @@ export default class MycvFile extends Component {
     }
   render() {
     return (
-      <div>
+      <div className="btn-cv">
         <button onClick={this.pdfCv}>Cliquez ici pour tèlecharger mon cv en pdf</button>
       </div>
     )

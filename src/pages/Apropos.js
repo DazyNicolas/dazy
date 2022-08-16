@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navigation from '../components/Navigation';
 import Monprofil from "../assets/img/maki.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
