@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/dazy/static/css/main.88789a49.css",
-    "main.js": "/dazy/static/js/main.a6dcf220.js",
+    "main.css": "/dazy/static/css/main.b620ccde.css",
+    "main.js": "/dazy/static/js/main.0851b7f9.js",
+    "static/js/291.7edc4b81.chunk.js": "/dazy/static/js/291.7edc4b81.chunk.js",
+    "static/js/857.05131c74.chunk.js": "/dazy/static/js/857.05131c74.chunk.js",
+    "static/js/498.b94658bf.chunk.js": "/dazy/static/js/498.b94658bf.chunk.js",
+    "static/js/703.653819d0.chunk.js": "/dazy/static/js/703.653819d0.chunk.js",
+    "static/js/735.e6473bf5.chunk.js": "/dazy/static/js/735.e6473bf5.chunk.js",
     "static/js/787.ccdec662.chunk.js": "/dazy/static/js/787.ccdec662.chunk.js",
+    "static/media/Dazy_CV_Dev-web.pdf": "/dazy/static/media/Dazy_CV_Dev-web.1f6eb3044dc18509606d.pdf",
     "static/media/maki.jpg": "/dazy/static/media/maki.989c0ebae2182f94c4af.jpg",
     "index.html": "/dazy/index.html",
-    "main.88789a49.css.map": "/dazy/static/css/main.88789a49.css.map",
-    "main.a6dcf220.js.map": "/dazy/static/js/main.a6dcf220.js.map",
+    "main.b620ccde.css.map": "/dazy/static/css/main.b620ccde.css.map",
+    "main.0851b7f9.js.map": "/dazy/static/js/main.0851b7f9.js.map",
+    "291.7edc4b81.chunk.js.map": "/dazy/static/js/291.7edc4b81.chunk.js.map",
+    "857.05131c74.chunk.js.map": "/dazy/static/js/857.05131c74.chunk.js.map",
+    "498.b94658bf.chunk.js.map": "/dazy/static/js/498.b94658bf.chunk.js.map",
+    "703.653819d0.chunk.js.map": "/dazy/static/js/703.653819d0.chunk.js.map",
+    "735.e6473bf5.chunk.js.map": "/dazy/static/js/735.e6473bf5.chunk.js.map",
     "787.ccdec662.chunk.js.map": "/dazy/static/js/787.ccdec662.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88789a49.css",
-    "static/js/main.a6dcf220.js"
+    "static/css/main.b620ccde.css",
+    "static/js/main.0851b7f9.js"
   ]
 }
