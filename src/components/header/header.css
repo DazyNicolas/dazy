@@ -1,0 +1,105 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ============== CTA =========== */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+/* ============== SOCIALS =========== */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    
+}
+
+.header__social-icon {
+    font-size: 1.2rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    color: var(--color-bg);
+
+}
+
+/* ============== DAZY =========== */
+
+.dazy{
+    background:linear-gradient(var(--color-primary), transparent);
+    width: 25rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 2rem 1.5rem 1.5rem ;
+}
+
+/* ============== SCROLL DOWN =========== */
+
+.scroll__down{
+  position: absolute;
+  right: -3.2rem;
+  bottom: 5rem;
+  font-weight: 300;
+  font-size: 1rem;
+  transform: rotate(90deg);
+}
+
+
+
+/* ========================= MEDIA QUERIES (MEDIUM DEVICES) =============*/
+
+@media screen and (max-width: 1024px) {
+
+    header{
+        height: 68vh;
+    }
+
+   
+}
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) =============*/
+
+@media screen and (max-width: 600px) {
+
+    header{
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+}
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) =============*/
+
+@media screen and (max-width: 414px) {
+
+   .cta a {
+    font-size: 0.8rem;
+   }
+}
+
+
