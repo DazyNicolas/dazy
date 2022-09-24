@@ -20,7 +20,7 @@
 }
 
 .contact__option:hover{
-    background: transparent;
+    background: var(--color-card-hover);
     border-color: 1px solid var(--color-primary-variant);
 }
 

@@ -14,7 +14,7 @@
 
 
 .experience__container > div:hover {
-    background:transparent ;
+    background:var(--color-card-hover) ;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
