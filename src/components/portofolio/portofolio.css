@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    color: #000;
 }
 
 .portofolio__item{
-    background: var(--color-bg-variant);
+    background: #F4F5FF;
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;

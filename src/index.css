@@ -19,7 +19,7 @@
     --color-light:#A48EBE;
     --color-text:#6481BA;
     --color-title:#05364D;
-    --color-card-hover:#657CD2;
+    --color-card-hover:#5F30FF;
     --color-text-hover:#EFB6DF;
     
 
@@ -59,6 +59,7 @@ body{
 h1, h2, h3, h4, h5{
     font-weight: 500;
     text-transform: uppercase;
+    color: var(--color-title);
 }
 
 h1{

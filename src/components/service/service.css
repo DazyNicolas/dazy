@@ -5,7 +5,7 @@
 }
 
 .service{
-    background: var(--color-bg-variant);
+    background: #F4F5FF;
     border-radius: 0 0  2rem 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
@@ -14,9 +14,10 @@
 }
 
 .service:hover{
-    background: transparent;
+    background: var(--color-card-hover);
     border-color: var(--color-primary-variant);
     cursor: default;
+    
 }
 
 .service__head{
