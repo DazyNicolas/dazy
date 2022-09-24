@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/dazy/static/css/main.0cb5261f.css",
-    "main.js": "/dazy/static/js/main.fd5ea2bf.js",
-    "static/media/dark-blue-texture.jpg": "/dazy/static/media/dark-blue-texture.a654c3c2b83bc57e2858.jpg",
+    "main.css": "/dazy/static/css/main.05912b54.css",
+    "main.js": "/dazy/static/js/main.818dc33a.js",
+    "static/media/test.jpg": "/dazy/static/media/test.c194792397a3c92f93af.jpg",
     "static/media/image-1.jpg": "/dazy/static/media/image-1.9620e9e6b8b6d531bcf6.jpg",
     "static/media/Dazy-Exelle-cv.pdf": "/dazy/static/media/Dazy-Exelle-cv.4b3af8dc904abef5e212.pdf",
     "static/media/maki.jpg": "/dazy/static/media/maki.4bac0730b3d65277e795.jpg",
-    "static/media/test.jpg": "/dazy/static/media/test.52de163fe968c58e6fc1.jpg",
     "static/media/maki1.jpg": "/dazy/static/media/maki1.156902371277cb04969e.jpg",
-    "static/media/Dazy.png": "/dazy/static/media/Dazy.a0993af385773d91e741.png",
+    "static/media/header-bg.png": "/dazy/static/media/header-bg.3632187cad78d398e4b0.png",
+    "static/media/dazy-profil.png": "/dazy/static/media/dazy-profil.6c4b70fa096570f9951b.png",
+    "static/media/img-logo.jpg": "/dazy/static/media/img-logo.8a8ee3f1a399031916b3.jpg",
     "index.html": "/dazy/index.html",
-    "main.0cb5261f.css.map": "/dazy/static/css/main.0cb5261f.css.map",
-    "main.fd5ea2bf.js.map": "/dazy/static/js/main.fd5ea2bf.js.map"
+    "main.05912b54.css.map": "/dazy/static/css/main.05912b54.css.map",
+    "main.818dc33a.js.map": "/dazy/static/js/main.818dc33a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cb5261f.css",
-    "static/js/main.fd5ea2bf.js"
+    "static/css/main.05912b54.css",
+    "static/js/main.818dc33a.js"
   ]
 }
