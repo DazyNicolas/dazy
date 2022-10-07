@@ -16,23 +16,23 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Mise en place de l'interaction de l'utilisateur.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Amelioration de l'experience utilisateur.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Mise en place les besoins des utilisateurs.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Traitement de la disposition graphique de site web</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Concepetion de tous les elements visuels et interactifs de la page</p>
             </li>
           </ul>
       </article>
@@ -46,19 +46,19 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Création de votre site web.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Animaton de votre site web.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Integrateur de maquette web</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Rendre votre site web dynamiquee et adaptable.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
@@ -76,11 +76,11 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Optimisé votre contenue web.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Structuré plus claire votre contenue web.</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon'/>
