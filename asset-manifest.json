@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dazy/static/css/main.09ac93fb.css",
-    "main.js": "/dazy/static/js/main.818dc33a.js",
+    "main.js": "/dazy/static/js/main.16a04e43.js",
     "static/media/test.jpg": "/dazy/static/media/test.c194792397a3c92f93af.jpg",
     "static/media/image-1.jpg": "/dazy/static/media/image-1.9620e9e6b8b6d531bcf6.jpg",
     "static/media/Dazy-Exelle-cv.pdf": "/dazy/static/media/Dazy-Exelle-cv.4b3af8dc904abef5e212.pdf",
@@ -12,10 +12,10 @@
     "static/media/img-logo.jpg": "/dazy/static/media/img-logo.8a8ee3f1a399031916b3.jpg",
     "index.html": "/dazy/index.html",
     "main.09ac93fb.css.map": "/dazy/static/css/main.09ac93fb.css.map",
-    "main.818dc33a.js.map": "/dazy/static/js/main.818dc33a.js.map"
+    "main.16a04e43.js.map": "/dazy/static/js/main.16a04e43.js.map"
   },
   "entrypoints": [
     "static/css/main.09ac93fb.css",
-    "static/js/main.818dc33a.js"
+    "static/js/main.16a04e43.js"
   ]
 }
